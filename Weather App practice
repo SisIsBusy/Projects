@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      h1 {
+        color: blue;
+        font-size: 25px;
+      }
+      h2{ 
+        font-weight: normal;
+      }
+      p{
+        font-weight: normal;
+        font-size: smaller;
+        word-spacing: 9px;
+      }
+  
+      ul {
+        padding: 15px;
+      }
+      li {
+        list-style: none;
+        word-spacing: 5px;
+        padding: 10px 0;
+        font-weight: normal;
+        border-radius: 10px;
+        transition: all 20ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      li:hover {
+        background: #fffbef;
+        margin: 0 auto;
+        max-width: 400px;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        padding: 16px 24px;
+        height: 100px;
+      }
+
+    
+      a {
+        outline: none;
+        text-decoration: none;
+        color: black;
+      }
+
+      button {
+        text-decoration: white;
+        background: blue;
+        color: white;
+        border-radius: 80px;
+        width: 150px;
+        height: 50px;
+      }
+      button:hover {
+        background: lightblue;
+        text-align: center;
+        text-decoration: white;
+        cursor: pointer;
+      }
+    </style>
+    <h1>🌤 
+    <br> Currently 21° in Tokyo</br></h1>
+
+    <h2>13° / <b>22°</b></h2>
+
+    <ul>
+      <li>
+        <h3>
+        <b>🌧 Tomorrow</b>
+        </h3>
+
+      <p>10° / <b>22°</b></p></li>
+
+      <br />
+      <li><h3><b>🌥 Saturday</b></h3>
+      <p>15° / <b>17</b>°</p></li>
+      <br />
+      <li><h3><b>☀️ Sunday</b></h3>
+
+      <p>25° / <b>28°</b></p></li>
+    </ul>
+    <br />
+    <button>Change City</button>
+    <p>Coded by Autumn Thorn</p>
+  </head>
+  <body></body>
+</html>
